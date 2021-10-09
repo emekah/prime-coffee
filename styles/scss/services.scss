@@ -1,0 +1,29 @@
+@import "./variables";
+
+.services-hero {
+  margin-top: 5rem;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  &__horizontal-line {
+    width: 4rem;
+    height: 2px;
+    background-color: $white;
+    text-align: center;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+  }
+  &__description {
+    width: 250px;
+  }
+}

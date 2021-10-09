@@ -1,0 +1,14 @@
+{
+  "name": "prime-coffee",
+  "version": "1.0.0",
+  "description": "Prime Coffee Website",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass": "node-sass styles/scss/style.scss styles/css/style.css -w"
+  },
+  "author": "Emeka Osuji",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

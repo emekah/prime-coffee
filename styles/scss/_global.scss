@@ -1,0 +1,75 @@
+@import './variables';
+
+h1, h2, h3, h4, h5 {
+  font-family: $headerfont;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.brown-text {
+  color: $lightbrown;
+}
+
+.white-outline-button {
+  font-size: 1.2rem;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 0 !important;
+}
+
+.white-outline-button:hover {
+  color: $lightbrown;
+  border: 2px solid $lightbrown;
+}
+
+.brown-button {
+  font-size: 1.2rem;
+  border: 2px solid $lightbrown;;
+  background-color: transparent;
+  color: $lightbrown;
+  border-radius: 0 !important;
+}
+
+.brown-button:hover {
+  font-size: 1.2rem;
+  border: 2px solid $chocolatebrown;
+  background-color: transparent;
+  color: $chocolatebrown;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+.blocks {
+  padding: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+@media (max-width: 576px) {
+  .blocks {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

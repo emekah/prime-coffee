@@ -1,0 +1,34 @@
+@import './variables';
+
+.fixed-top {
+  background-color: white;
+}
+
+.nav-item {
+  padding-right: 2rem;
+}
+
+.nav-link {
+  font-family: $bodyfont;
+  font-weight: bolder;
+}
+
+a.nav-link:hover{
+  color: $lightbrown !important;
+}
+
+.nav-link.active {
+  color: $lightbrown !important;
+}
+
+.nav-link {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.nav-item.fab:hover {
+  color: $lightbrown
+}
+
+.carousel {
+  margin-top: 5rem;
+}

@@ -1,0 +1,50 @@
+@import '../scss/variables';
+
+/** First Block **/
+
+.first-block {
+  &__img {
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.middle-placement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+@media (max-width: 576px) {
+  .first-block__img {
+    height: 40vh;
+    
+  }
+  .block__description {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .first-block__img {
+    margin-bottom: 2rem;
+  }
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 768px) {
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
